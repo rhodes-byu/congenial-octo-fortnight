@@ -9,5 +9,5 @@ setup(
     name = 'fortnight',
     version = '0.0.1',
     packages = find_packages(),
-    requires = ['numpy', 'pandas']
+    install_requires = ['numpy', 'pandas']
 )
