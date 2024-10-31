@@ -13,5 +13,5 @@ setup(
     author = 'Jake Rhodes',
     author_email = 'rhodes@stat.byu.edu',
     description = 'A package for fortnight',
-    data_files = {'fortnight': ['datasets/weather.csv']}
+    package_data = {'fortnight': ['datasets/weather.csv']}
 )
