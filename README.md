@@ -2,6 +2,7 @@
 ## The README file describes what you want others to know about your package
 ### This is a third-level header
 
+## Requires Python >= 3.10
 
 ### An itemized list
 1. first item
