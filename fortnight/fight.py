@@ -20,7 +20,10 @@ def sum_count(some_list):
         The first entry is the sum, the second the length.
     """
     
-    sum_ = np.sum(np.asarray(some_list))
+    sum_ = np.sum(some_list)
     count_ = len(some_list)
+
+    if count_ > 10:
+        return sum_, 'large list'
 
     return sum_, count_
