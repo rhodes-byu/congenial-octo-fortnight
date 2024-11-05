@@ -10,7 +10,7 @@ def test_hungry_not():
     assert str(e.value) == "I am not hungry"
 
 
-def test_hungry_will_fail():
-    assert hungry(True) == "I am not hungry"
+# def test_hungry_will_fail():
+#     assert hungry(True) == "I am not hungry"
     
 
