@@ -33,3 +33,5 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'cloud'
 html_static_path = ['_static']
+
+source_suffix = ['.rst', '.md']
